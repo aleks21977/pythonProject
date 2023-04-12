@@ -1,0 +1,11 @@
+__pycache__
+.idea
+.pytest_cache
+.env.test
+.env.pp
+.env.prod
+venv
+.DS_Store
+*.ini
+.env
+www.txt

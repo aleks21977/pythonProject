@@ -41,8 +41,6 @@ def test_fill_form(app):
     text_cur_address = app.get_element_text("//p[@id='currentAddress']")
     text_per_address = app.get_element_text("//p[@id='permanentAddress']")
 
-    # time.sleep(3)  # Let the user actually see something!
-
     assert text_full_name == ("Name:" + full_name)
     assert text_email == ("Email:" + email)
     assert text_cur_address == ("Current Address :" + cur_address)

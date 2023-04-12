@@ -5,7 +5,7 @@ class Application:
     pass
 
     def __init__(self):
-        self.wd = WebDriver('../webdriver/chromedriver')
+        self.wd = WebDriver('./webdriver/chromedriver')
         self.wd.implicitly_wait(60)
 
     def open_home_page(self):
